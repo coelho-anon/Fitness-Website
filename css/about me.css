@@ -1,0 +1,36 @@
+
+
+#image_me{
+	margin-top: 10%;
+	background-image: url('../Wallpapers/w (28).jpg');
+  	height: 700px; 
+  	width: 70%;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+	#text_me{
+		width: 70%;
+		transform: translate(104%, 25%);
+		background-color: yellow;
+		height: auto;
+		padding: 10%;
+		padding-bottom: 2%;
+		box-shadow: 0 0 20px 13px black;
+	}
+
+		#text_me h1{
+			font-size: 3em;
+			font-family: "Georgia";
+		}
+
+		#text_me h2{
+			font-family: "Lucida Console";
+		}
+
+		#text_me p{
+			font-size: 1.4em;
+			font-family: "Comic Sans MS";
+		}

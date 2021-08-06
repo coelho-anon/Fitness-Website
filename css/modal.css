@@ -1,0 +1,219 @@
+/*input[type=date]{
+	transition: .2s;
+	border: 3px solid #15bfa0;
+	background-color: black;
+	border-radius: 10px;
+	padding: 1%;
+	text-align: center;
+}
+
+input[type=date]::-webkit-datetime-edit{
+	width: 50%;
+	font-size: 2em;
+}
+input[type=date]::-webkit-datetime-edit-fields-wrapper{
+	color: #1ab2b9;
+}
+
+input[type=date]::-webkit-inner-spin-button{
+	font-size: 2em;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator{
+	color: #15bf59;
+	font-size: 3em;
+	padding: 1%;
+	transition: .2s;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator:hover{
+	background-color: #15bfa0;
+	color: black;
+	font-size: 3em;
+	transition: .2s;
+}*/
+#month_year_div{
+	display: flex;
+	align-content: space-between;
+	align-items: baseline;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+	#month_year_div li{
+		background-color: #0fd6ba;
+		border: none;
+		border-radius: 5px;
+		color: white;
+		transition: .2s;
+		font-size: 1.5em;
+		display: inline-block;
+		text-align: center;
+		padding: 1%;
+		font-weight: bold;
+	}
+
+	#month_year_div li:hover{
+		background-color: #0f8dd6;
+		color: black;
+		cursor: pointer;
+	}
+
+	#prev_month{
+		margin-right: auto;
+	}
+
+	#next_month{
+		margin-left: auto;
+	}
+
+	#month_year{
+		font-weight: bold;
+		font-size: 1.4em;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 40%;
+	}
+
+#calendar{
+	background-color: #1457bdb8;
+	width: 100%;
+	font-size: 1.4em;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+}	
+	#calendar thead{
+	}
+
+	#calendar tr:nth-child(even) {
+	  background-color: #225cb5;
+	}
+
+	#calendar th{
+		color: black;
+		text-align: center;
+		width: calc(100% / 7)
+	}
+
+	#calendar td{
+		transition: .2s;
+		text-align: center;
+	}
+
+		/*#0fd6ba*/
+	.day_calendar:hover{
+		transition: .2s;
+		cursor: pointer;
+		background-color: #0fd6ba;
+		color: black;
+		border-radius: 5px;
+	}
+
+		.day_calendar_pass{
+			background-color: #808080bf;
+		}
+
+		.day_calendar_pass:hover{
+			background-color: #de1010;
+			transition: .2s;
+			color: black;
+			border-radius: 5px;
+
+		}
+
+		.day_calendar_active{
+			background-color: #0fd6ba;
+			color: black;
+			border-radius: 5px;
+		}
+
+#choose_time{
+	margin-top: 5%;
+	display: none;
+}
+
+	#afternoon_btns, #nigth_btns{
+		margin-top: 2%;
+	}
+
+	.register_time_btns{
+		background-color: #129e12;
+		border: none;
+		border-radius: 5px;
+		font-size: 2em;
+		color: white;
+		transition: .2s;
+		padding-right: 1%;
+		padding-left: 1%;
+	}
+
+		.register_time_btns:hover, #afternoon_btns button:hover, #nigth_btns button:hover{
+			transition: .2s;
+			cursor: pointer;
+			background-color: #0fd6ba;
+			color: white;
+		}
+
+		#afternoon_btns button{
+			background-color: #ff9800;
+		}
+
+		#nigth_btns button{
+			background-color: black;
+		}
+
+#text_fields_modal{
+	margin-top: 5%;
+	display: none;
+}
+
+	#register_personal_infos_div .text_fields{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		outline: none;
+		background: none;
+		border: none;
+		border-bottom: 3px solid #225cb5;
+		margin-top: 2%;
+		font-size: 1.2em;
+	}
+
+	#send_message_modal{
+		transition: .2s;
+    	background-color: #0db71a;
+		border: none;
+		padding: 2%;
+		color: white;
+		font-size: 1.5em;
+		margin-top: 1%;
+		float: right;
+		border-radius: 5px;
+		display: none;
+	}
+
+	#send_message_modal:hover{
+		background-color: #0ae01a;
+		transition: .2s;
+		cursor: pointer;
+	}
+
+	#close_modal_btn{
+		transition: .2s;
+    	background-color: black;
+    	margin-top: 1%;
+		border: none;
+		padding: 2%;
+		color: white;
+		font-size: 1.5em;
+		border-radius: 5px;
+	}
+
+	#close_modal_btn:hover{
+		background-color: red;
+		transition: .2s;
+		cursor: pointer;
+	}

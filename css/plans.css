@@ -1,0 +1,66 @@
+
+#gallery_cards{
+	background-color: #d2d2d2;
+	height: auto;
+	margin-top: 80%;
+}
+
+	.card{
+		background-color: white;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		width: 28%;
+		text-align: center;
+		box-shadow: 0 0 20px 4px black;
+	}
+		.image_Plans3{
+			height: 60vh;
+			background-size: cover;
+			background-image: url("../Wallpapers/003.jpg");
+		}
+
+		.image_Plans2{
+			height: 60vh;
+			background-size: cover;
+			background-image: url("../Wallpapers/002.jpg");
+		}
+
+		.image_Plans1{
+			height: 60vh;
+			background-size: cover;
+			background-image: url("../Wallpapers/001.jpg");
+		}
+
+		#normal_plan{
+			color: #1758ce;
+			font-weight: bold;
+		}
+
+		#mediun_plan{
+			color: #0ec0d2;
+			font-weight: bold;
+		}
+
+		#vip_plan{
+			color: #20c734;
+			font-weight: bold;
+		}
+
+	.card .btn{
+		width: 50%;
+		font-size: 1.4em;
+		font-family:Palatino Linotype;
+		font-weight: bold;
+		transition: .2s;
+	}
+
+	.card p{
+		font-size: 1.2em;
+		height: 60%;
+	}
+
+		.card p span{
+			color: green;
+			/*font-size: .5em;*/
+		}
+

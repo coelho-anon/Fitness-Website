@@ -1,0 +1,99 @@
+
+@media only screen and (max-width: 992px){
+	#container_clok{
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.clok_itens{
+		margin-left: -1%;
+	}
+}
+
+@media only screen and (max-width: 576px){
+	#month_year_div li{
+		font-size: 1.4em;
+	}
+
+	#choose_time{
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 509px){
+	#myModal{
+		font-size: small;
+	}
+
+		#month_year_div li{
+			font-size: 1.4em;
+		}
+
+		#choose_hour_clock{
+			font-size: 2em;
+		}
+
+		#choose_time{
+			width: 55%;
+		}
+}
+  
+@media only screen and (max-width: 467px){
+	.modal_title_fields{
+		font-size: xx-large;
+	}
+
+		#month_year_div li{
+			font-size: 1.4em;
+		}
+
+		#choose_time{
+			width: 60%;
+		}
+}
+
+@media only screen and (max-width: 426px){
+	.register_time_btns{
+		margin-top: 2%;
+	}
+
+	#choose_time{
+		width: 70%;
+		font-size: medium;
+	}
+
+	.clok_itens input{
+		text-align: center;
+		width: 100%;
+	}
+    
+}
+
+@media only screen and (max-width: 394px){
+	.modal_title_fields{
+		font-size: 2em;
+	}
+
+		.modal_sub-title_fields{
+			font-size: 1.7em;
+		}
+}
+
+@media only screen and (max-width: 387px){
+	.register_time_btns{
+		margin-top: 2%;
+	}
+
+	#choose_time{
+		width: 94%;
+	}
+    
+}
+
+
+@media only screen and (max-width: 367px){
+	#container_clok{
+		width: 95%;
+	}
+}

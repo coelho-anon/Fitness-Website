@@ -1,0 +1,113 @@
+
+
+#contact_us{
+	background-image: url('../Wallpapers/w (88).png');
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	padding-bottom: 5%;
+}
+	.contact_content {
+		margin-top: 8%;
+		padding: 0px;
+	}
+
+		#contact_word{
+			width: 100%;
+			text-align: center;
+			color: white;
+			font-weight: bold;
+			background-color: #000000cc;
+			font-size: 8em;
+			margin-top: 5%;
+			width: auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			mix-blend-mode: multiply;
+		}
+
+		#maps_div{
+			width: 50%;
+		}
+
+		#localization{
+			color: white;
+			text-align: center;
+			font-size: 1.2em;
+			background-color: #000000bf;
+			width: 50%;
+		}
+
+		.text_fields{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 90%;
+			margin-top: 2%;
+			font-size: 1.2em;
+		}
+
+		#textarea_msg{
+			height: 200px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 90%;
+			margin-top: 2%;
+		}
+
+		#send_message{
+			transition: .2s;
+	    	background-color: #0db71a;
+			border: none;
+			padding: 2%;
+			color: white;
+			font-size: 1.5em;
+			margin-top: 1%;
+			float: right;
+			margin-right: 5%;
+		}
+
+		#send_message:hover{
+			background-color: #0ae01a;
+			transition: .2s;
+			cursor: pointer;
+		}
+
+		.social_medias{
+			width: 100%;
+			display: block;
+			margin-top: 50px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+
+			.footer_a_links{
+				text-decoration: none;
+				width: 50px;
+				height: 50px;
+				background-color: blue;
+				border:none;
+				display: inline-block;
+				margin: 2%;
+			}
+
+				.social_media_icons{
+					width: 50px;
+					height: 50px;
+					display: inline-block;
+					margin: 2%;
+					padding-top: 0px;
+					border-radius: 5px;
+					box-shadow: 6px 6px 7px 7px #000000;
+					transition: .2s;
+				}
+
+				.social_media_icons:hover{
+					cursor: pointer;
+					box-shadow: 0px 0px 20px 6px #1bff00e6;
+					transition: .2s;
+				}

@@ -1,0 +1,149 @@
+
+
+#menu{
+	background-color: white;
+	color: white;
+	justify-content: flex-end;
+	width: 100%;
+	margin: 0px;
+}
+
+	#logo_name{
+		color: #093858;
+	}
+
+	#logo_name span{
+		opacity: .5;
+	}
+
+	#div_menu_items{
+		width: 50%;
+	}
+
+		#mobile_menu_icon{
+			text-decoration: none;
+			background-color: transparent;
+			border: none;
+			color: #093858;
+			padding: 2%;
+			font-size: 1.5em;
+			transition: .2s;
+		}
+
+		#mobile_menu_icon:hover{
+			text-decoration: none;
+			cursor: pointer;
+			transition: .2s;
+			color: white;
+			background-color: #0a5c94;
+		}
+
+		.menu_itens{
+			text-decoration: none;
+			background-color: transparent;
+			border: none;
+			color: #093858;
+			padding: 2%;
+			font-size: 1.5em;
+			transition: .2s;
+			display: inline-block;
+			float: right;
+		}
+
+		.menu_itens:hover{
+			text-decoration: none;
+			cursor: pointer;
+			transition: .2s;
+			color: white;
+			background-color: #0a5c94;
+		}
+
+#img_header{
+	background-image: url('../Wallpapers/w (5).jpg');
+  	height: 800px;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+	#banner{
+		color: #359ce2;
+	    text-shadow: 0 0 20px black;
+		height: 30%;
+		top: 40%;
+	}
+
+	#banner p{
+		font-size: 8em;
+	}
+
+	#banner h1{
+		font-size: 2em;
+	}
+
+	.social_media_icons{
+		width: 50px;
+		height: 50px;
+		display: inline-block;
+		margin: 2%;
+		padding-top: 0px;
+		border-radius: 50%;
+		box-shadow: 6px 6px 7px 7px #000000;
+		transition: .2s;
+	}
+
+	.social_media_icons:hover{
+		cursor: pointer;
+		box-shadow: 0px 0px 20px 6px #1bff00e6;
+		transition: .2s;
+	}
+
+
+	#me_abt_btns{
+		margin-top: -5%;
+	}
+
+		.abouts_btns:nth-child(2){
+			background-color: #093858;
+			border: none;
+			width: 35%;
+			padding-top: 2%;
+			padding-bottom: 2%;
+			padding-right: 0%;
+			padding-left: 0%;
+			font-size: 2em;
+			color: white;
+			margin-left: 0px;
+			margin-right: 0px;
+			transition: .2s;
+			text-align: center;
+		}
+
+		.abouts_btns:nth-child(1){
+			background-color: #65a8d6;
+			border: none;
+			width: 35%;
+			padding-top: 2%;
+			padding-bottom: 2%;
+			padding-right: 0%;
+			padding-left: 0%;
+			font-size: 2em;
+			color: white;
+			margin-left: 0px;
+			margin-right: 0px;
+			transition: .2s;
+			text-align: center;
+		}
+
+		#me_abt_btns a:hover{
+			transition: .2s;
+			cursor: pointer;
+			text-decoration: none;
+			background-color: #caca00f0;
+		}
+
+		/*#SerraFit_btn_header{
+			background-color: #65a8d6;
+			color: #65a8d6;
+		}*/

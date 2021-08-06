@@ -1,0 +1,54 @@
+#container_clok{
+	background-color: black;
+	padding: 1%;
+	display: flex;
+	align-items: baseline;
+	width: 50%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+	#container_clok div{
+		display: inline-block;
+	}
+
+		.clok_itens{
+			color: white;
+			border: none;
+			background-color: black;
+			font-size: 2.5em;
+			display: block;
+		}
+
+		.description_itens{
+			border: none;
+			color: white;
+			background-color: transparent;
+			font-size: .8em;
+			margin-right: 25%;
+		}
+
+		.up_down_clock_btn{
+			color: white;
+			display: inline;
+			font-size: 2.5em;
+			background-color: #225cb5;
+		    padding: 10%;
+		    border-radius: 5px;
+		    margin-right: 25%;
+		    font-weight: bold;
+		    transition: .2s;
+		}
+
+		.up_down_clock_btn:hover{
+			cursor: pointer;
+			transition: .2s;
+			background-color: #0fd6ba;
+		}
+

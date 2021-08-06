@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1230px){
+
+	#contact_us{
+	}
+
+		#maps_div{
+			width: 100%;
+		}	
+
+		#localization{
+			width: 100%;
+		}
+	
+}
+
+@media only screen and (min-width: 1231px){
+
+	#contact_us{
+	}
+
+		#maps_div{
+			width: 50%;
+		}
+
+		#localization{
+			width: 50%;
+		}
+	
+}

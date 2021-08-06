@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1222px){
+
+	#image_me{
+	  	width: 100%;
+	}
+
+		#text_me{
+			width: 50%;
+			height: 100%;
+			transform: translate(0%, 0%);
+			overflow: auto;
+			float: right;
+		}
+
+	#about_section{
+		margin-top: 0%;
+	  	height: 700px; 
+	  	width: 100%;
+	  	margin-bottom: 10%;
+	}
+
+	#about{
+		width: 50%;
+		height: 100%;
+		transform: translate(-0%, 0%);
+		overflow: auto;
+	}
+}

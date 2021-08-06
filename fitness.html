@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/Tooltips.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/about me.css">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/plans.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
+	<link rel="stylesheet" type="text/css" href="css/modal_clock.css">
+
+	<link rel="stylesheet" type="text/css" href="css/tablet/abouts.css">
+	<link rel="stylesheet" type="text/css" href="css/tablet/contact.css">
+
+	<link rel="stylesheet" type="text/css" href="css/mobile/mobile.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile/modal.css">
+
+</head>
+<body>
+	<div class="container-fluid">
+		<header>
+			<div class="row d-flex justify-content-rigth" id="menu">
+
+				<div class="col-4 mr-auto ml-3 align-self-center">
+					<!-- mr mean to Margin Rigth is auto -->
+					<h1 id="logo_name">Serra <span>Fit</span></h1>
+				</div>
+
+				<a class="d-none" id="mobile_menu_icon">&#9776;</a>
+
+				<div id="div_menu_items">
+					<a class="menu_itens" href="#contact_word">Contact</a>
+					<a class="menu_itens" href="#gallery_cards">Plans</a>
+					<a class="menu_itens" href="#about_section">SerraFit</a>
+					<a class="menu_itens" href="#about_me_section">Me</a>
+				</div>
+
+			</div>
+
+			<div class="row" id="img_header">
+				<div class="col-12" id="banner">
+					<p>Miya Josh</p>
+					<h1>Discovery your power</h1>
+
+					<div class="social_medias">
+						<img src="Wallpapers/social media icons/twitter.png" class="social_media_icons" data-toggle="tooltip" data-placement="top" title="@us social media!">
+						<img src="Wallpapers/social media icons/facebook.png" class="social_media_icons" data-toggle="tooltip" data-placement="top" title="@us social media!">
+						<img src="Wallpapers/social media icons/whatsapp.png" class="social_media_icons" data-toggle="tooltip" data-placement="top" title="@us social media!">
+						<img src="Wallpapers/social media icons/instagram.png" class="social_media_icons" data-toggle="tooltip" data-placement="top" title="@us social media!">
+					</div>
+				</div>	
+			</div>
+
+			<div id="me_abt_btns" class="d-flex justify-content-end row">
+				<a class="abouts_btns" href="#about_section">SerraFit</a>
+				<a class="abouts_btns" href="#about_me_section">Me</a>
+			</div>
+
+		</header>
+
+		<div id="about_me_section" class="row">
+
+			<div id="image_me">
+				<div id="text_me" class="reveal">
+					<h1>Hello, My name is Lorem!</h1> <br>
+					<h2>A Proficional ipsum</h2> <br>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div id="about_section" class="row">
+
+			<div id="about" class="reveal">
+				<h1>Hello, My name is Lorem!</h1> <br>
+				<h2>A Proficional ipsum</h2> <br>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+
+		<div class="row w-100 d-flex justify-content-around" id="gallery_cards">
+
+			<div class="card">
+			  <!-- <img class="image_Plans card-img-top" src="Wallpapers/001.jpg" alt="Card image"> -->
+			  <div class="image_Plans1 card-img-top" alt="Card image"></div>
+
+			  <div class="card-body">
+			    <h4 class="card-title" id="normal_plan">Normal Plan</h4>
+			    <p class="card-text">
+				    15min <br>
+				    Lorem ipsum dolor sit <span>&#10004;</span><br>
+				    Lorem ipsum dolor sit <span>&#10004;</span><br>
+			    </p>
+			    <button class="btn btn-success" data-toggle="modal" data-target="#myModal">Lorem</button>
+			  </div>
+			</div>
+
+			<div class="card">
+			  <!-- <img class="image_Plans card-img-top" src="Wallpapers/002.jpg" alt="Card image"> -->
+			  <div class="image_Plans2 card-img-top" alt="Card image"></div>
+
+			  <div class="card-body">
+			    <h4 class="card-title" id="mediun_plan">Medium Plan</h4>
+			    <p class="card-text">
+				    20min <br>
+				    Lorem ipsum dolor sit <span>&#10004;</span><br>
+				    Lorem ipsum dolor sit <span>&#10004;</span><br>
+				    Lorem ipsum dolor sit <span>&#10004;</span><br>
+			    </p>
+			    <button class="btn btn-success" data-toggle="modal" data-target="#myModal">Lorem</button>
+			  </div>
+			</div>
+
+			<div class="card">
+			  <!-- <img class="image_Plans card-img-top" src="Wallpapers/003.jpg" alt="Card image"> -->
+			  	<div class="image_Plans3 card-img-top" alt="Card image"></div>
+			  <div class="card-body">
+			    <h4 class="card-title" id="vip_plan">VIP Plan</h4>
+			    <p class="card-text">
+				    40min <br>
+				    Lorem ipsum dolor sit <span>&#10004;</span><br>
+				    Lorem ipsum dolor sit <span>&#10004;</span><br>
+				    Lorem ipsum dolor sit <span>&#10004;</span><br>
+				    Lorem ipsum dolor sit <span>&#10004;</span><br>
+				    Lorem ipsum dolor sit <span>&#10004;</span><br>
+			    </p>
+			    <button class="btn btn-success" data-toggle="modal" data-target="#myModal">Lorem</button>
+			  </div>
+			</div>
+
+		</div>
+
+		<div class="row" id="register">
+			<div class="col-12" id="register_content">
+				
+					<!-- The Modal -->
+					<div class="modal" id="myModal">
+					  <div class="modal-dialog modal-lg">
+					    <div class="modal-content">
+
+					    	<!-- Modal Header -->
+					    	<div class="modal-header">
+						        <h4 class="modal-title">Register yourself</h4>
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+					     	</div>
+
+							<!-- Modal body -->
+						    <form>
+								<div class="modal-body">
+							        <div id="register_personal_infos_div">
+						        		<div>
+								      		<h1 class="modal_title_fields">Choose Data Day</h1>
+								        	<ul id="month_year_div">
+								        		<li id="prev_month" onclick="prev_month_calendar()">
+								        			< prev
+								        		</li>
+								        		<li id="month_year"></li>
+								        		<li id="next_month" onclick="next_month_calendar()">
+									        		next >
+								        		</li>
+								        	</ul>
+								        	<table id="calendar">
+								        		<thead>
+								        			<th>Sun.</th>
+								        			<th>Mon.</th>
+								        			<th>Tue.</th>
+								        			<th>Wed.</th>
+								        			<th>Thu.</th>
+								        			<th>Fri.</th>
+								        			<th>Sat.</th>
+								        		</tr>
+								        	</table>
+								        </div>
+
+								        <div id="choose_time">
+						        			<h1 class="modal_title_fields" id="choose_hour_clock">Choose hour</h1>
+
+											<div>
+												<div id="up_hour" class="up_down_clock_btn">&#8679;</div>
+												<div class="clok_itens"><input value="08" id="hour_clock" required></div>
+												<div class="description_itens">Hours</div>
+												<div  id="down_hour" class="up_down_clock_btn">&#8681;</div>
+											</div>
+											<div>
+												<div id="up_minutes" class="up_down_clock_btn">&#8679;</div>
+												<div class="clok_itens"><input value="30" id="minute_clock" required></div>
+												<div class="description_itens">Minutes</div>
+												<div id="down_minutes" class="up_down_clock_btn">&#8681;</div>
+											</div>
+										</div>
+									    <div id="text_fields_modal">
+							        		<h1 class="modal_title_fields">Personal Informations</h1>
+
+							        		<!-- INPUTS TEXTS FORM -->
+											<input type="text" name="" class="text_fields" placeholder="Name" required>
+											<input type="text" name="" class="text_fields" placeholder="Email" required>
+											<input type="text" name="" class="text_fields" placeholder="Phone number" required>
+											<input type="text" name="" class="text_fields" placeholder="Opicional adicional information" required>
+										</div>
+									</div>
+								</div>
+
+								<!-- Modal footer -->
+								<div class="modal-footer">
+									<input type="submit" id="send_message_modal">
+									<button type="button" id="close_modal_btn" data-dismiss="modal">Close</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" id="contact_us">
+			
+				<div id="contact_word">
+					CONTACT US
+				</div>
+
+				<div class="contact_content" id="maps_div">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3562160887295!2d-122.71073474116746!3d38.4671707603545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8084478fb7408745%3A0x58c59ecfe2bf81c9!2sLorem%20Ipsum!5e0!3m2!1spt-BR!2sbr!4v1584034095182!5m2!1spt-BR!2sbr" class="w-100" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="maps"></iframe>
+				</div>
+
+				<div class="contact_content" id="localization">
+					<p>
+						AV. Fictial road, 100 <br>
+						City Name, ST 12345-678 <br>
+						info@mineSite.com <br>
+						phone: (12) 1234-5678
+					</p>
+
+					<form>
+						<input type="text" name="" class="text_fields" placeholder="name">
+						<input type="text" name="" class="text_fields" placeholder="email">
+						<input type="text" name="" class="text_fields" placeholder="title">
+
+						<textarea id="textarea_msg" placeholder="message text"></textarea>
+
+						<input type="submit" id="send_message">
+					</form>
+				</div>
+
+				<div class="social_medias">
+					<img src="Wallpapers/social media icons/twitter.png" class="social_media_icons" data-toggle="tooltip" data-placement="top" title="@us social media!">
+					<img src="Wallpapers/social media icons/facebook.png" class="social_media_icons" data-toggle="tooltip" data-placement="top" title="@us social media!">
+					<img src="Wallpapers/social media icons/whatsapp.png" class="social_media_icons" data-toggle="tooltip" data-placement="top" title="@us social media!">
+					<img src="Wallpapers/social media icons/instagram.png" class="social_media_icons" data-toggle="tooltip" data-placement="top" title="@us social media!">
+				</div>
+
+		</div>
+
+	</div>
+
+	<script src="js/menu_open_close.js"></script>
+	<script src="js/on_scroll.js"></script>
+	<script src="js/form/calendar.js"></script>
+	<script src="js/form/time.js"></script>
+</body>
+</html>
